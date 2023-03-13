@@ -1,4 +1,4 @@
-#### ML Demo Project
+### ML Demo Project
 
 #### Process Steps
 
