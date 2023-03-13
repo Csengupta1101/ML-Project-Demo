@@ -29,5 +29,5 @@ We need to keep committing our changes everytime with below commands.
 Now let's create a .gitignore file from the add file option in the repository. Language will be chosen as python. This will ensure that any unnecesary python packages will be ignored.
 Now let's create two more files for further build up 
 
-    -   setup.py file
-    -   requirements.txt file
+    -   setup.py file - (This file will help us to build the ML model)
+    -   requirements.txt file - (This will contain all necessary python package names)
