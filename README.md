@@ -22,7 +22,9 @@ So it's in sync we can say.
 
 We need to keep committing our changes everytime with below commands.
 
-git add .
-git status
-git commit -m "commit message"
-git push origin main
+    -   git add .
+    -   git status
+    -   git commit -m "commit message"
+    -   git push origin main
+
+Now let's create a .gitignore file from the add file option in the repository. Language will be chosen as python. This will ensure that any unnecesary python packages will be ignored.
