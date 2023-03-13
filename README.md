@@ -1,6 +1,9 @@
 #### ML Demo Project
+
 #### Process Steps
+
 The first task in the project is to set up the Github Repository and creation of virtual environment. 
+
     -   The repository is created as ML-Demo-project.
     -   The virtual environment is created as mlenv.
     -   We cloned the github repo in our local folder address
@@ -13,4 +16,11 @@ The output as we got -
 origin  https://github.com/Csengupta1101/ML-Project-Demo.git (fetch)
 origin  https://github.com/Csengupta1101/ML-Project-Demo.git (push)
 
-So it's in sync we can say.
+So it's in sync we can say. 
+
+We need to keep committing our changes everytime with below commands.
+
+git add .
+git status
+git commit -m "commit message"
+git push origin main
