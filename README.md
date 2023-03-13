@@ -14,9 +14,8 @@ We can check if our github repository is synced with the project - "git remote -
 
 The output as we got - 
 
-origin  https://github.com/Csengupta1101/ML-Project-Demo.git (fetch)
-
-origin  https://github.com/Csengupta1101/ML-Project-Demo.git (push)
+    -   origin  https://github.com/Csengupta1101/ML-Project-Demo.git (fetch)
+    -   origin  https://github.com/Csengupta1101/ML-Project-Demo.git (push)
 
 So it's in sync we can say. 
 
