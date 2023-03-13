@@ -13,6 +13,7 @@ The first task in the project is to set up the Github Repository and creation of
 We can check if our github repository is synced with the project - "git remote -v"
 
 The output as we got - 
+
 origin  https://github.com/Csengupta1101/ML-Project-Demo.git (fetch)
 origin  https://github.com/Csengupta1101/ML-Project-Demo.git (push)
 
