@@ -50,7 +50,9 @@ Now simply with the below command in the terminal we can go ahead and get our re
         We will create a subfolder called components inside of the src folder. This components folder will contain all the required modules for our project. The first python file that we will create over here is called 'data_ingestion.py' . This particular python file will help us access all the data from databases for our model building. The next python file we will create is data_transform.py , this file will help us to transform the data. The next python file will be model_trainer , and inside this python file we will do the  basic model train test split , validation etc etc. For classification problems we will place the confusion matrix here , for regression problem we will place mse , adjusted mse etc etc here.
 
     -   Pipeline
-        Machine learning pipeline subfolder will be created because this will contain all the different steps of machine learning such as data importing , cleaning , EDA etc etc stored in separate separate functions. two types of pipeline will be created , training and prediction pipeline.
+        Machine learning pipeline subfolder will be created because this will contain all the different steps of machine learning such as data importing , cleaning , EDA etc etc stored in separate separate functions. two types of pipeline will be created , training and prediction pipeline. __init__.py will also be created here to help us construct the neccessary packages.
+
+Logger , exception and utils python file will be created for respectively tracking of events when software runs(log) , exception handling and utils will be used for random calling of any function from the components folder.
 
 
 
