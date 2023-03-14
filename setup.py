@@ -2,10 +2,10 @@
 from setuptools import find_packages , setup
 from typing import List
 
-''' Hypen e variable created separately as a variable and "-e." is taken as a value inside of it so that this partular object can stay in the requirements.txt file and can trigger the setup 
+''' Hypen e variable created separately as a variable and "-e ." is taken as a value inside of it so that this partular object can stay in the requirements.txt file and can trigger the setup 
 python file but will not impact our main code '''
 
-hypen_e = '-e.'
+hypen_e = '-e .'
 
 def get_requirements(file_path:str)->List[str]:
     '''This function will return the list of requirements'''
@@ -15,7 +15,7 @@ def get_requirements(file_path:str)->List[str]:
         ''' The issue with the readlines statement is that as it goes into the requirements file , it will read lines separately with \n block inside of it , however with the help of list 
         comprehension as below we can replace the "\n" block with blank'''
         requirements = [req.replace("\n","")for req in requirements]
-        ''' This if block will ensure that whenever the set up file calls for the requirements.txt file for module installation , the '-e.' block remains ignored'''
+        ''' This if block will ensure that whenever the set up file calls for the requirements.txt file for module installation , the '-e .' block remains ignored'''
         if hypen_e in requirements:
             requirements.remove(hypen_e)
     return requirements
