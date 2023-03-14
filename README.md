@@ -31,3 +31,10 @@ Now let's create two more files for further build up
 
     -   setup.py file - (This file will help us to build the ML model)
     -   requirements.txt file - (This will contain all necessary python package names)
+
+##### Setup Tools
+
+The setup tool is simply a module to get the packages installed in our model. We will create a new folder called 'src' , inside of which a __init__(constructor) file will be present. our setup tool will ensure every module installed through the constructor remains accesible to our package.
+
+On the setup python file , there is an parameter specified as install_requires , we will provide requirements.txt as an argument inside of it , so that all modules that exists inside requirements.txt gets installed in our package. Then we will define a function stating get_requirements , this function will take a file path as an argument inside of it and the file path will return a list which contains all the modules mentioned in the requirements.txt file
+
