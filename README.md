@@ -38,3 +38,9 @@ The setup tool is simply a module to get the packages installed in our model. We
 
 On the setup python file , there is an parameter specified as install_requires , we will provide requirements.txt as an argument inside of it , so that all modules that exists inside requirements.txt gets installed in our package. Then we will define a function stating get_requirements , this function will take a file path as an argument inside of it and the file path will return a list which contains all the modules mentioned in the requirements.txt file
 
+##### Installing Requirements
+
+Now simply with the below command in the terminal we can go ahead and get our requirements installed in the project itself.
+
+
+
