@@ -44,5 +44,9 @@ On the setup python file , there is an parameter specified as install_requires ,
 
 Now simply with the below command in the terminal we can go ahead and get our requirements installed in the project itself.
 
+##### Src Folder 
+
+We will create a subfolder called components inside of the src folder. This components folder will contain all the required modules for our project. The first python file that we will create over here is called 'data_ingestion.py' . This particular python file will help us access all the data from databases for our model building.
+
 
 
