@@ -46,7 +46,7 @@ Now simply with the below command in the terminal we can go ahead and get our re
 
 ##### Src Folder 
 
-We will create a subfolder called components inside of the src folder. This components folder will contain all the required modules for our project. The first python file that we will create over here is called 'data_ingestion.py' . This particular python file will help us access all the data from databases for our model building.
+We will create a subfolder called components inside of the src folder. This components folder will contain all the required modules for our project. The first python file that we will create over here is called 'data_ingestion.py' . This particular python file will help us access all the data from databases for our model building. The next python file we will create is data_transform.py , this file will help us to transform the data. The next python file will be model_trainer , and inside this python file we will do the  basic model train test split , validation etc etc. For classification problems we will place the confusion matrix here , for regression problem we will place mse , adjusted mse etc etc here.
 
 
 
