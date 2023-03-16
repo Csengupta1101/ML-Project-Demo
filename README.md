@@ -54,5 +54,5 @@ Now simply with the below command in the terminal we can go ahead and get our re
 
 Logger , exception and utils python file will be created for respectively tracking of events when software runs(log) , exception handling and utils will be used for random calling of any function from the components folder.
 
-
+Now we will write our exception file code , all the exceptions that arise during development of the project , will be handled here.
 
